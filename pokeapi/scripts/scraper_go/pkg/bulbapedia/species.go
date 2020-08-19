@@ -16,7 +16,7 @@ import (
 )
 
 type Species struct {
-	Id                   int64  `json:"id" bulbapedia:"ndex"`
+	ID                   int64  `json:"id" bulbapedia:"ndex"`
 	Identifier           string `json:"identifier" bulbapedia:"name,lower"`
 	GenerationID         string `json:"generation_id" bulbapedia:"generation"`
 	EvolvesFromSpeciesID string `json:"evolves_from_species_id"`
@@ -87,13 +87,13 @@ func (s SpeciesScrapper) read(path string) error {
 			ConquestOrder:        row[19],
 		}
 		if row[0] == "" {
-			p.Id = ErrID
+			p.ID = ErrID
 		} else {
-			if p.Id, err = strconv.ParseInt(row[0], 10, 64); err != nil {
+			if p.ID, err = strconv.ParseInt(row[0], 10, 64); err != nil {
 				return err
 			}
 		}
-		s[p.Id] = p
+		s[p.ID] = p
 		log.Info().Str("species_id", p.Identifier).Msg("Added species")
 	}
 	return nil
@@ -109,15 +109,15 @@ func (s SpeciesScrapper) scrape(name string) {
 	if err := Unmarshal([]byte(soup.HTMLParse(resp).Find("textarea", "id", "wpTextbox1").Text()), species); err != nil {
 		log.Error().Err(err).Msg("Failed to unmarshal")
 	}
-	if species.Id >= 888 && species.Id <= 892 {
+	if species.ID >= 888 && species.ID <= 892 {
 		species.IsLegendary = "1"
 	}
 
-	if _, ok := s[species.Id]; ok {
+	if _, ok := s[species.ID]; ok {
 		log.Info().Str("species_identifier", species.Identifier).
-			Int64("species_id", species.Id).Msg("Updating old species")
+			Int64("species_id", species.ID).Msg("Updating old species")
 	}
-	s[species.Id] = *species
+	s[species.ID] = *species
 }
 
 func (s SpeciesScrapper) write(path string) error {
@@ -138,7 +138,7 @@ func (s SpeciesScrapper) write(path string) error {
 
 	for _, k := range keys {
 		pokemon := s[int64(k)]
-		fmt.Fprintf(w, "%d,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s\n", pokemon.Id, pokemon.Identifier, pokemon.GenerationID, pokemon.EvolvesFromSpeciesID, pokemon.EvolutionChainID, pokemon.ColorID, pokemon.ShapeID, pokemon.HabitatID, pokemon.GenderRate, pokemon.CaptureRate, pokemon.BaseHappiness, pokemon.IsBaby, pokemon.HatchCounter, pokemon.HasGenderDifference, pokemon.GrowthRateID, pokemon.FormsSwitchable, pokemon.IsLegendary, pokemon.IsMythical, pokemon.Order, pokemon.ConquestOrder)
+		fmt.Fprintf(w, "%d,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s\n", pokemon.ID, pokemon.Identifier, pokemon.GenerationID, pokemon.EvolvesFromSpeciesID, pokemon.EvolutionChainID, pokemon.ColorID, pokemon.ShapeID, pokemon.HabitatID, pokemon.GenderRate, pokemon.CaptureRate, pokemon.BaseHappiness, pokemon.IsBaby, pokemon.HatchCounter, pokemon.HasGenderDifference, pokemon.GrowthRateID, pokemon.FormsSwitchable, pokemon.IsLegendary, pokemon.IsMythical, pokemon.Order, pokemon.ConquestOrder)
 	}
 
 	return w.Flush()

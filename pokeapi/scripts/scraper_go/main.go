@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./pkg/bulbapedia"
+	"scraper/pkg/bulbapedia"
 )
 
 func main() {
