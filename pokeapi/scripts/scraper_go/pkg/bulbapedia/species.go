@@ -107,7 +107,10 @@ func (s SpeciesScrapper) scrape(name string) {
 	}
 	species := &Species{}
 	if err := Unmarshal([]byte(soup.HTMLParse(resp).Find("textarea", "id", "wpTextbox1").Text()), species); err != nil {
-
+		log.Error().Err(err).Msg("Failed to unmarshal")
+	}
+	if species.Id >= 888 && species.Id <= 892 {
+		species.IsLegendary = "1"
 	}
 
 	if _, ok := s[species.Id]; ok {
