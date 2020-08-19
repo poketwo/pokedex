@@ -1,14 +1,10 @@
 package main
 
 import (
-	"fmt"
-	"scrapper/pkg/scraper"
+	"./pkg/bulbapedia"
 )
 
 func main() {
-	s := &scraper.PokemonScrapper{}
-	s.Init()
-	s.Read("data/pokemon.csv")
-	s.ScrapeList(("data/new_pokemon.txt"))
-	fmt.Println(s.Write("out/pokemon.csv"))
+	bulbapedia.Scrape(&bulbapedia.PokemonScrapper{}, "data/pokemon.csv", "data/new_pokemon.txt", "out/pokemon.csv")
+	bulbapedia.Scrape(&bulbapedia.SpeciesScrapper{}, "data/pokemon_species.csv", "data/new_pokemon.txt", "out/pokemon_species.csv")
 }
