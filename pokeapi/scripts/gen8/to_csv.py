@@ -72,12 +72,13 @@ if __name__ == "__main__":
 
 			currentEntries = []
 			# Get first line (info on what each column represents)
-			start = next(reader)
+			header = next(reader)
 			for row in reader:
 				row = [int(row[0]), int(row[1]), int(row[2]), row[3]]
 				entriesList.append(row)
 
 		# Sort the list based on species id
+		writer.writerow(header)
 		entriesList.sort()
 		writer.writerows(entriesList)
 		print("Done")
