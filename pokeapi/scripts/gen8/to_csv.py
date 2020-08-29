@@ -46,22 +46,29 @@ if __name__ == "__main__":
 
 					version = -1
 					if game == "lgpe":
-						# Let's Go
+						# Let's Go Pikachu, then Eevee
 						version = 31
+						dupe = True
 
 					elif game == "swsh":
+						dupe = False
 						if fileName[3] == "a":
 							# Sword
-							version = 32
+							version = 33
 						elif fileName[3] == "b":
 							# Shield
-							version = 33
+							version = 34
 
 					# Loop through the text file's dictionary and append the parsed data into the list
 					for label, flavor_text in dictionary.items():
 						if (len(flavor_text) > 1 and "[VAR]" not in flavor_text):
 							species = int(label[0][14:17])
 							entriesList.append([species, version, language, flavor_text])
+
+							# Append a duplicate entry for Let's Go Eevee (both games use the same table)
+							if (dupe):
+								entriesList.append([species, 32, language, flavor_text])
+
 				except UserWarning as error:
 					print(error)
 				except Exception as error:
@@ -74,6 +81,7 @@ if __name__ == "__main__":
 			# Get first line (info on what each column represents)
 			header = next(reader)
 			for row in reader:
+				# species_id, version_id, language_id, flavor_text
 				row = [int(row[0]), int(row[1]), int(row[2]), row[3]]
 				entriesList.append(row)
 
