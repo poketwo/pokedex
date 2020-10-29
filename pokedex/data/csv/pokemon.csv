@@ -890,6 +890,11 @@ id,identifier,species_id,height,weight,base_experience,order,is_default
 891,kubfu,891,6,120,,,1
 892,urshifu,892,19,1050,,,1
 893,zarude,893,18,700,,,1
+894,regieleki,894,12,1450,,,1
+895, regidrago, 895, 21, 2000,,,1
+896, glastrier, 896, 22, 8000,,,1
+897, spectrier, 897, 20, 445,,,1
+898, calyrex, 898, 11, 77,,,1
 10001,deoxys-attack,386,17,608,270,497,0
 10002,deoxys-defense,386,17,608,270,498,0
 10003,deoxys-speed,386,17,608,270,499,0
@@ -1047,11 +1052,5 @@ id,identifier,species_id,height,weight,base_experience,order,is_default
 10155,necrozma-dusk,800,38,4600,306,954,0
 10156,necrozma-dawn,800,42,3500,306,955,0
 10157,necrozma-ultra,800,75,2300,339,956,0
-
-894,regieleki,894,12,1450,,,1
-895, regidrago, 895, 21, 2000,,,1
-896, glastrier, 896, 22, 8000,,,1
-897, spectrier, 897, 20, 445,,,1
-898, calyrex, 898, 11, 77,,,1
 20000, calyrex-ice-rider, 20000, 24, 8091,,,1
 20000, calyrex-shadow-rider, 20000, 24, 536,,,1
