@@ -8562,18 +8562,10 @@ pokemon_species_id,local_language_id,name,genus
 807,9,Zeraora,Thunderclap Pokémon
 807,11,ゼラオラ,じんらいポケモン
 807,12,捷拉奥拉,奔雷宝可梦
-
-
-
-
-
-
-
-
-894,9,regieleki,894,12,1450,,,1
-895, regidrago, 895, 21, 2000,,,1
-896, glastrier, 896, 22, 8000,,,1
-897, spectrier, 897, 20, 445,,,1
-898, calyrex, 898, 11, 77,,,1
-
-pokemon_species_id,local_language_id,name,genus
+894,9,regieleki,Electron Pokémon
+895,9,regidrago,Dragon Orb Pokémon
+896,9,glastrier,Wild Horse Pokémon
+897,9,spectrier,Swift Horse Pokémon
+898,9,calyrex,King Pokémon
+20000,9,calyrex-ice-rider,High King Pokémon
+20000,9,calyrex-shadow-rider,High King Pokémon
