@@ -1053,4 +1053,4 @@ id,identifier,species_id,height,weight,base_experience,order,is_default
 10156,necrozma-dawn,800,42,3500,306,955,0
 10157,necrozma-ultra,800,75,2300,339,956,0
 20000,calyrex-ice-rider,20000,24,8091,,,1
-20000,calyrex-shadow-rider,20000,24,536,,,1
+20001,calyrex-shadow-rider,20000,24,536,,,1
