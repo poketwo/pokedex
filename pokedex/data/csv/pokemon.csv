@@ -1106,7 +1106,7 @@ id,identifier,species_id,height,weight,base_experience,order,is_default
 10207,flapple-gmax,841,240,10000,170,,0
 10208,appletun-gmax,842,240,10000,170,,0
 10209,sandaconda-gmax,844,220,10000,179,,0
-10210,toxtricity-gmax,849,240,10000,176,,0
+10210,toxtricity-amped-gmax,849,240,10000,176,,0
 10211,centiskorch-gmax,851,750,10000,184,,0
 10212,hatterene-gmax,858,260,10000,255,,0
 10213,grimmsnarl-gmax,861,320,10000,255,,0
@@ -1116,3 +1116,4 @@ id,identifier,species_id,height,weight,base_experience,order,is_default
 10217,eternatus-eternamax,890,1000,10000,345,,0
 10218,urshifu-single-strike-gmax,892,290,10000,275,,0
 10219,urshifu-rapid-strike-gmax,892,260,10000,275,,0
+10220,toxtricity-low-key-gmax,849,240,10000,176,,0
