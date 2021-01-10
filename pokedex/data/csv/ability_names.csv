@@ -2489,20 +2489,120 @@ ability_id,local_language_id,name
 253,9,Perish Body
 253,12,灭亡之躯
 253,13,Corpo Perecido
+254,3,떠도는영혼
+254,4,遊魂
+254,5,Âme Vagabonde
+254,6,Rastlose Seele
+254,7,Alma Errante
+254,8,Anima Errante
 254,9,Wandering Spirit
+254,12,游魂
+255,3,무아지경
+255,4,猩
+255,5,Entêtement
+255,6,Affenfokus
+255,7,Monotema
+255,8,Vigorilla
 255,9,Gorilla Tactics
+255,12,意
+256,3,화학변화가스
+256,4,化學變化氣體
+256,5,Gaz Inhibiteur
+256,6,Reaktionsgas
+256,7,Gas Reactivo
+256,8,Gas Reagente
 256,9,Neutralizing Gas
+256,13,化学变化气体
+256,13,Gás Neutralizador
+257,3,파스텔베일
+257,4,粉彩護幕
+257,5,Voile Pastel
+257,6,Pastellhülle
+257,7,Velo Pastel
+257,8,Pastelvelo
 257,9,Pastel Veil
+257,12,粉彩护幕
+257,13,Véu de Tons Pastéis
+258,3,꼬르륵스위치
+258,4,飽了又餓 
+258,5,Déclic Fringale
+258,6,Heißhunger
+258,7,Mutapetito
+258,8,Pancialterna
 258,9,Hunger Switch
+258,12,饱了又饿
+259,3,퀵드로
+259,4,速擊
+259,5,Tir Vif
+259,6,Schnellschuss
+259,7,Mano Rápida
+259,8,Colpolesto
 259,9,Quick Draw
+259,12,速击
+260,3,보이지않는주먹
+260,4,無形拳
+260,5,Poing Invisible
+260,6,Verborgene Faust
+260,7,Puño Invisible
+260,8,Pugni Invisibili
 260,9,Unseen Fist
+260,12,无形拳
+261,3,기묘한약
+261,4,怪藥
+261,5,Breuvage Suspect
+261,6,Kuriose Arznei
+261,7,Medicina Extraña
+261,8,Stranofarmaco
 261,9,Curious Medicine
+261,12,怪药
+262,3,트랜지스터
+262,4,電晶體
+262,5,Transistor
+262,6,Transistor
+262,7,Transistor
+262,8,Transistor
 262,9,Transistor
+262,12,电晶体
+263,3,용의턱
+263,4,龍顎
+263,5,Dent de Dragon
+263,6,Drachenkiefer
+263,7,Mandíbula Dragón
+263,8,Dragomascelle
 263,9,Dragon's Maw
+263,12,龙颚
+264,3,백의울음
+264,4,蒼白嘶鳴
+264,5,Blanche Ruade
+264,6,Helles Wiehern
+264,7,Relincho Blanco
+264,8,Nitrito Bianco
 264,9,Chilling Neigh
+264,12,苍白嘶鸣
+265,3,흑의울음
+265,4,漆黑嘶鳴
+265,5,Sombre Ruade
+265,6,Dunkles Wiehern
+265,7,Relincho Negro
+265,8,Nitrito Nero
 265,9,Grim Neigh
+265,12,漆黑嘶鸣 
+266,3,혼연일체
+266,4,人馬一體
+266,5,Osmose Équine
+266,6,Reitgespann
+266,7,Unidad Ecuestre
+266,8,Sintonia Equina
 266,9,As One
+266,12,人马一体
+267,3,혼연일체
+267,4,人馬一體
+267,5,Osmose Équine
+267,6,Reitgespann
+267,7,Unidad Ecuestre
+267,8,Sintonia Equina
 267,9,As One
+267,12,人马一体
 10001,9,Mountaineer
 10002,9,Wave Rider
 10003,9,Skater
