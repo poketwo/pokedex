@@ -7935,65 +7935,125 @@ move_id,local_language_id,name
 796,9,Steel Beam
 796,11,てっていこうせん
 796,12,鐵蹄光線
+797,3,와이드포스
 797,5,Vaste Pouvoir
+797,7,Vasta Fuerza
 797,9,Expanding Force
+798,3,아이언롤러
 798,5,Métalliroue
+798,7,Allanador Férreo
 798,9,Steel Roller
+799,3,스케일샷
 799,5,Rafale Écailles
+799,7,Ráfaga Escamas
 799,9,Scale Shot
+800,3,메테오빔
 800,5,Laser Météore
+800,7,Rayo Meteórico
 800,9,Meteor Beam
+801,3,셸암즈
 801,5,Kokiyarme
+801,7,Moluscañón
 801,9,Shell Side Arm
+802,3,미스트버스트
 802,5,Explo-Brume
+802,7,Bruma Explosiva
 802,9,Misty Explosion
+803,3,﻿그래스슬라이더
 803,5,Gliss'Herbe
+803,7,Fitoimpulso
 803,9,Grassy Glide
+804,3,라이징볼트
 804,5,Monte-Tension
+804,7,Alto Voltaje
 804,9,Rising Voltage
+805,3,대지의파동
 805,5,Champlification
+805,7,Pulso de Campo
 805,9,Terrain Pulse
+806,3,엄습하는일격
 806,5,Ravage Rampant
+806,7,Golpe Rastrero
 806,9,Skitter Smack
+807,3,질투의불꽃
 807,5,Feu Envieux
+807,7,Envidia Ardiente
 807,9,Burning Jealousy
+808,3,분풀이
 808,5,Cent Rancunes
+808,7,Desahogo
 808,9,Lash Out
+809,3,폴터가이스트
 809,5,Esprit Frappeur
+809,7,Poltergeist
 809,9,Poltergeist
+810,3,부식가스
 810,5,Gaz Corrosif
+810,7,Gas Corrosivo
 810,9,Corrosive Gas
+811,3,코칭
 811,5,Coaching
+811,7,Motivación
 811,9,Coaching
+812,3,퀵턴
 812,5,Eau Revoir
+812,7,Viraje
 812,9,Flip Turn
+813,3,트리플악셀
 813,5,Triple Axel
+813,7,Triple Axel
 813,9,Triple Axel
+814,3,더블윙
 814,5,Double Volée
+814,7,Ala Bis
 814,9,Dual Wingbeat
+815,3,열사의대지t
 815,5,Sable Ardent
+815,7,Arenas Ardientes
 815,9,Scorching Sands
+816,3,정글힐
 816,5,Selve Salvatrice
+816,7,Cura Selvática
 816,9,Jungle Healing
+817,3,암흑강타
 817,5,Poing Obscur
+817,7,Golpe Oscuro
 817,9,Wicked Blow
+818,3,수류연타
 818,5,Torrent de Coups
+818,7,Azote Torrencial
 818,9,Surging Strikes
+819,3,썬더프리즌
 819,5,Voltageôle
+819,7,Electrojaula
 819,9,Thunder Cage
+820,3,드래곤에너지
 820,5,Draco-Énergie
+820,7,Dracoenergía
 820,9,Dragon Energy
+821,3,얼어붙는시선
 821,5,Regard Glaçant
+821,7,Mirada Heladora
 821,9,Freezing Glare
+822,3,타오르는분노
 822,5,Fureur Ardente
+822,7,Furia Candente
 822,9,Fiery Wrath
+823,3,천둥차기
 823,5,Coup Fulgurant
+823,7,Patada Relámpago
 823,9,Thunderous Kick
+824,3,블리자드랜스
 824,5,Lance de Glace
+824,7,Lanza Glacial
 824,9,Glacial Lance
+825,3,아스트랄비트
 825,5,Éclat Spectral
+825,7,Orbes Espectro
 825,9,Astral Barrage
+826,3,섬뜩한주문
 826,5,Sort Sinistre
+826,7,Conjuro Funesto
 826,9,Eerie Spell
 10001,1,ダークラッシュ
 10001,5,Charge Noire

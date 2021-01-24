@@ -1054,7 +1054,7 @@ ability_id,local_language_id,name
 106,4,引爆
 106,5,Boom Final
 106,6,Finalschlag
-106,7,Resquicio
+106,7,Detonación
 106,8,Scoppio
 106,9,Aftermath
 106,11,ゆうばく
@@ -2419,7 +2419,7 @@ ability_id,local_language_id,name
 244,12,庞克摇滚
 245,3,모래뿜기
 245,4,吐沙
-245,5,Expul'Sable
+245,5,Expul’Sable
 245,6,Sandspeier
 245,7,Expulsarena
 245,8,Sputasabbia
@@ -2459,7 +2459,7 @@ ability_id,local_language_id,name
 250,4,擬態
 250,5,Mimétisme
 250,6,Mimese
-250,7,Mimese
+250,7,Mimetismo
 250,8,Mimetismo
 250,9,Mimicry
 250,12,拟态
