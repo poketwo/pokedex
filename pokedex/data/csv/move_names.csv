@@ -1374,7 +1374,7 @@ move_id,local_language_id,name
 138,4,食夢
 138,5,Dévorêve
 138,6,Traumfresser
-138,7,Come Sueños
+138,7,Comesueños
 138,8,Mangiasogni
 138,9,Dream Eater
 138,11,ゆめくい
@@ -3834,7 +3834,7 @@ move_id,local_language_id,name
 384,4,力量互換
 384,5,Permuforce
 384,6,Krafttausch
-384,7,Cambia Fuerza
+384,7,Cambiafuerza
 384,8,Barattoforza
 384,9,Power Swap
 384,11,パワースワップ
@@ -4154,7 +4154,7 @@ move_id,local_language_id,name
 416,4,終極衝擊
 416,5,Giga Impact
 416,6,Gigastoß
-416,7,Giga Impacto
+416,7,Gigaimpacto
 416,8,Gigaimpatto
 416,9,Giga Impact
 416,11,ギガインパクト
@@ -4404,7 +4404,7 @@ move_id,local_language_id,name
 441,4,垃圾射擊
 441,5,Détricanon
 441,6,Mülltreffer
-441,7,Lanza Mugre
+441,7,Lanzamugre
 441,8,Sporcolancio
 441,9,Gunk Shot
 441,11,ダストシュート
@@ -6824,7 +6824,7 @@ move_id,local_language_id,name
 683,4,速度互換
 683,5,Permuvitesse
 683,6,Initiativetausch
-683,7,Cambia Velocidad
+683,7,Cambiavelocidad
 683,8,Velociscambio
 683,9,Speed Swap
 683,11,スピードスワップ
